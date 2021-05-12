@@ -64,12 +64,16 @@
         <div class="post_list" v-if="post_list.length === 0">
           <div class="margin-10"></div>
           <div class="margin-10"></div>
+          <div class="margin-10"></div>
+          <div class="margin-10"></div>
+          <div class="margin-10"></div>
+          <div class="margin-10"></div>
           <div class="ground_loader_wrapper">
             <div class="bg-bar"></div>
             <div class="bg-bar"></div>
             <div class="sm-bar"></div>
             <div class="bg-bar"></div>
-            <div class="alert_msg">Post not found</div>
+            <div class="alert_msg">Empty</div>
             <div class="bg-bar"></div>
             <div class="sm-bar"></div>
             <div class="bg-bar"></div>

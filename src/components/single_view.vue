@@ -5,7 +5,7 @@
                 <div class="location_view" v-if="post_data !== null">
                   <nav style="--bs-breadcrumb-divider: '/';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"> <router-link class="link" :to="'/'">HOME </router-link></li>
+                      <li class="breadcrumb-item"> <router-link class="link" :to="'/vuejs-vuex'">HOME</router-link></li>
                       <li class="breadcrumb-item active" aria-current="page"><span> {{post_data.title}}</span></li>
                     </ol>
                   </nav>
